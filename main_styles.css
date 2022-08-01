@@ -1,5 +1,6 @@
 * {
 	color: rgb(255, 255, 255);
+    font-family: arial;
 }
 
 h1 {
@@ -27,6 +28,10 @@ h2 {
     font-size: 250%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
 	right: 20%;
 	left: 20%;
@@ -36,6 +41,15 @@ h2 {
 
 .text {
 	text-align: left;
+}
+
+.refs {
+    text-align: left;
+}
+
+.refs_ {
+    font-size: 80%;
+    vertical-align: super;
 }
 
 #black {
@@ -237,6 +251,21 @@ h2 {
     	position: absolute;
     	top: 341.5%;
         left: 3.3%;
+        font-size: 100%;
+    }
+
+    #pushkin_and_pushin_history {
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        width: 16%;
+        z-index: -3;
+    }
+    
+    #pushkin_and_pushin_history_t {
+        position: absolute;
+        top: 33%;
+        padding-right: 80%;
         font-size: 100%;
     }
     
