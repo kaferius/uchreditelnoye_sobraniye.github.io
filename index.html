@@ -7,28 +7,31 @@
 	<link rel="stylesheet" href="main_styles.css">
 </head>
 <body>
-	<header>
+	<header style="position: sticky; top: 0;">
 		<a href="#"><img src="pictures/back_to_home.png" id="back_to_home"></a>
-		<a href="history/" class="header_buttons" id="to_history">История</a>
-		<a href="name/" class="header_buttons" id="to_name">Название</a>
-		<a href="members/" class="header_buttons" id="to_members">Участники</a>
-		<a href="parties/" class="header_buttons" id="to_parties">Партии</a>
-		<a href="shorthand/" class="header_buttons" id="to_shorthand">Стенограмма</a>
-		<a href="project/" class="header_buttons" id="to_project">О проекте</a>
-		<img src="pictures/black.png" id="black">
+		<ul class="hb_list">
+			<li class="hb_item"><a href="history/">История</a></li>
+			<li class="hb_item"><a href="name/">Название</a></li>
+			<li class="hb_item"><a href="members/">Участники</a></li>
+			<li class="hb_item"><a href="parties/">Партии</a></li>
+			<li class="hb_item"><a href="shorthand/">Стенограмма</a></li>
+			<li class="hb_item"><a href="project/">О проекте</a></li>
+		</ul>
 	</header>
-	<div class="main">
-		<h1 class="mainest">Учредительное собрание — великая мечта и великое разочарование</h1>
-		<p><strong>Учредительное собрание</strong> было символом Русской революции 1917 года. Все события той поры проходили под её лозунгом: «Вся власть Учредительному собранию!» И лишь иногда рядом с ним писали другой: «Вся власть советам!» Но о советах знают все, а об Учредительном собрании помнят немногие, хотя его идея появилась значительно раньше.</p>
-		<h2>История и название</h2>
-	</div>
-	<div class="imgs">
-		<img src="pictures/background1.png" class="background1">
-		<img src="pictures/red.png" class="mainbackground">
-		<a href="kadets/"><img src="pictures/kadets_background.png" id="kadets_background"></a>
-		<a href="mensheviks/"><img src="pictures/mensheviks_background.png" id="mensheviks_background"></a>
-		<a href="esers/"><img src="pictures/esers_background.png" id="esers_background"></a>
-		<a href="history/"><img src="pictures/background2.png" id="background2"></a>
+	<div style="display: flex;">
+		<div>
+			<a href="kadets/"><img src="pictures/kadets_background.png" style="width: 350px;"></a>
+		<a href="mensheviks/"><img src="pictures/mensheviks_background.png" style="width: 350px;"></a>
+		</div>
+		<div id="div1_main">
+			<h1 style="padding-top: 30px;">Учредительное собрание — великая мечта и великое разочарование</h1>
+			<p class="main_page"><strong>Учредительное собрание</strong> было символом Русской революции 1917 года. Все события той поры проходили под её лозунгом: «Вся власть Учредительному собранию!» И лишь иногда рядом с ним писали другой: «Вся власть советам!» Но о советах знают все, а об Учредительном собрании помнят немногие, хотя его идея появилась значительно раньше.</p>
+			<h2>История и название</h2>
+		</div>
+		<div>
+			<a href="esers/"><img src="pictures/esers_background.png" style="width: 350px;"></a>
+			<a href="history/"><img src="pictures/background2.png" style="width: 350px;"></a>
+		</div>
 	</div>
 </body>
 </html>
